@@ -72,4 +72,6 @@ def count(tweets):
 		cDenna += text.count('denna')
 		cDenne += text.count('denne')
 
+	print "%s, %s, %s, %s, %s, %s, %s",cHan, cHon, cHen, cDen, cDet, cDenna, cDenne	
+
 	return [cHan, cHon, cHen, cDen, cDet, cDenna, cDenne]
